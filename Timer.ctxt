@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Timer
+comment0.text=\r\n\ \ Timer\ objects\ simplify\ actions\ that\ happen\ either\ once\ after\ a\ delay\r\n\ \ \ \ \ or\ multiple\ times\ after\ a\ regular\ interval.\r\n\ \ Lambda\ expression\ notation\ recommended\ for\ specifying\ the\ Runnable.\r\n\ \ Usage\:\ to\ print\ "Hello\ world"\ every\ 2\ seconds,\ initialize\ as\:\r\n\ \ \r\n\ \ Timer\ printTimer\ \r\n\ \ \ \ \ \ \=\ new\ Timer(\ 2,\ true,\ ()\ ->\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ {\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ System.out.println("Hello\ world\!");\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ );\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ Then,\ during\ an\ update\ loop\ that\ runs\ 60\ times\ per\ second\:\r\n\ \ \r\n\ \ printTimer.update(\ 1/60f\ );\r\n\ \ \r\n
+comment1.params=timeLimit\ repeat\ function
+comment1.target=Timer(float,\ boolean,\ java.lang.Runnable)
+comment2.params=deltaTime
+comment2.target=void\ update(float)
+numComments=3
